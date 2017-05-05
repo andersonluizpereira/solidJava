@@ -14,7 +14,7 @@ public class ClienteRepository {
     //3.Database credentials
     private static String USERNAME = "udaykiran";//UserName
     private static String PASSWORD = "Pa55word";//Passwor
-	
+//	Ler https://www.mkyong.com/jdbc/jdbc-preparestatement-example-insert-a-record/
 	public void AdicionarCliente(Cliente cliente){
 		 try {
 		        Class.forName(SQL_JDBC_DRIVER);// Register jdbc driver
